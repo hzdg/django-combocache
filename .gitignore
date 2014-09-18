@@ -1,0 +1,5 @@
+*.pyc
+*.egg
+.DS_Store
+/dist
+/MANIFEST
