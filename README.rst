@@ -1,7 +1,8 @@
 django-combocache
 ---------------
 
-![ComboCache](http://slice.seriouseats.com/images/20100721-combos-pizzeriapretzel.jpg)
+.. image:: http://slice.seriouseats.com/images/20100721-combos-pizzeriapretzel.jpg
+
 
 Installation
 ===============
@@ -20,7 +21,8 @@ Use
 
 Add the following to your `CACHES` setting:
 
-```python
+.. code:: python
+
     CACHES = {
         'default': {
             'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
@@ -37,4 +39,4 @@ Add the following to your `CACHES` setting:
             'CACHES': ['default', 'filebased']
         }
     }
-```
+
