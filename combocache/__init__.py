@@ -36,7 +36,7 @@ class ComboCache(BaseCache):
     def has_key(self, key, version=None):
         has_key = False
         for cache in self.caches:
-            has_key = cache.has_key(self, key, version=version)
+            has_key = cache.has_key(key, version=version)
             if has_key:
                 return has_key
         return has_key
